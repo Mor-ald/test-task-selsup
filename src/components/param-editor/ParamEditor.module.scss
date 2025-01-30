@@ -1,0 +1,47 @@
+.param-editor {
+  margin: 5em auto 0;
+  border: 1px solid #ebebeb;
+  border-radius: 1em;
+  padding: 4em 8em;
+  width: 320px;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 15%);
+  background-color: #fff;
+}
+
+.param-editor-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.25em 0;
+}
+
+.param-label {
+  width: 50%;
+  font-weight: 600;
+  font-size: 1.25em;
+  text-align: center;
+  transition: 0.2s all ease;
+  cursor: pointer;
+}
+
+.param-label:hover {
+  opacity: 0.8;
+}
+
+.param-input {
+  border: 1px solid #b6b6b6;
+  border-radius: 0.25em;
+  padding: 0.5em 0.25em;
+  width: 50%;
+  transition: 0.2s all ease;
+}
+
+.param-input::placeholder {
+  font-weight: bold;
+}
+
+.param-input:focus {
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 0 0 8px -2px rgba(0, 0, 0, 60%);
+}
